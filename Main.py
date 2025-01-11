@@ -4,6 +4,7 @@ name = input("Enter Name: ")
 
 # Create an empty list 'array' with the same length as the input 'name'
 # This will hold the binary representations of each character in the name
+array = [None] * len(name)
 
 # Loop through each character in the input 'name'
 for i in range(len(name)):
@@ -35,3 +36,4 @@ for binary_value in myList:
 
 # Print the decoded list of characters
 print("Decoded (characters):", decoded_list)
+input("Press any key to continue:")
