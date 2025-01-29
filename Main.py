@@ -1,6 +1,6 @@
 # Encoder
 # Prompt the user to enter a name (or string)
-name = input("Enter Name: ")
+name = input("Enter Text To Be Encoded: ")
 
 # Create an empty list 'array' with the same length as the input 'name'
 # This will hold the binary representations of each character in the name
